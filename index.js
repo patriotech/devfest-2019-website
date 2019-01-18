@@ -3,5 +3,5 @@ $('.menu-items li').click(function() {
   const scrollTo = el.attr('data-scroll');
   $('html, body').animate({
       scrollTop: $(scrollTo).offset().top
-  }, 200);
+  }, 700);
 });
