@@ -6,7 +6,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Avenir'
+  font-family: 'Avenir';
+  background-color: rgb(226, 226, 226);
 }
 
 /* MENU/HEADER */
@@ -141,11 +142,14 @@ header {
   margin: 5px 0px 20px;
 }
 
+/* DETAILS SECTION */
 .details-header {
   font-size: 40px;
   text-align: center;
-  margin: 15px;
+  padding: 15px 0;
   color: rgb(77, 77, 77);
+  background-color: white;
+  margin: 0;
 }
 
 .details-main {
@@ -161,6 +165,7 @@ header {
   width: 28%;
   min-width: 300px;
   margin: 20px;
+  box-shadow: 0px 0px 15px 3px #52525263;
 }
 
 .details-card:nth-of-type(1) {
@@ -259,4 +264,161 @@ header {
 .about .definition p {
   font-size: 18px;
   color: white;
+}
+
+/* FAQ SECTION */
+.faq {
+  background: url('./img/faq-background.png') no-repeat center center;
+  background-size: cover;
+}
+
+.faq-container {
+  max-width: 700px;
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(240, 240, 240);
+}
+
+.faq-header {
+  font-size: 40px;
+  margin: 10px 0;
+  color: #1aaeef;
+}
+
+.faq .q-and-a {
+  margin-bottom: 30px;
+}
+
+.faq .q-and-a:last-of-type {
+  margin-bottom: 0;
+}
+
+.faq .q-and-a h3 {
+  color: #2b2b2b;
+  margin-bottom: 2px;
+}
+
+.faq .q-and-a p {
+  color: grey;
+  margin: 0;
+}
+
+/* SPONSORS SECTION */
+.sponsors {
+  width: 100%;
+  background-color: #999;
+}
+
+.sponsors h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin:0;
+  padding: 15px;
+}
+
+.sponsors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 20px 50px;
+}
+
+.sponsors-container img {
+  max-width: 300px;
+  align-self: center;
+}
+
+/* FOOTER SECTION */
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  height: 70px;
+  background-color: #999;
+  border-top: 2px solid rgb(140, 140, 140);
+}
+
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+
+footer .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+footer .social {
+  width: 50%;
+  float: right;
+}
+
+footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  width: 20%;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+footer .social a:hover {
+  background-color: white;
+}
+
+.main-site {
+  background-color: #6ed15c;
+}
+
+.main-site:hover {
+  color: #6ed15c;
+}
+
+.engage {
+  background-color: #ffd94f;
+}
+
+.engage:hover {
+  color: #ffd94f
+}
+
+.meetup {
+  background-color: #f85050;
+}
+
+.meetup:hover {
+  color: #f85050;
+}
+
+footer .social a.email {
+  background-color: #1aaeef;
+  width: 40%;
+}
+
+footer .social a.email:hover {
+  background-color: white;
+  color: #1aaeef;
+}
+
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+
+  footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+
+  footer .social {
+    width: 100%;
+  }
 }

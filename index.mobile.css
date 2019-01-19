@@ -22,4 +22,9 @@
   .overlay {
     margin-top: 73px;
   }
+
+  .sponsors-container img {
+    max-width: 250px;
+    margin-bottom: 50px;
+  }
 }
