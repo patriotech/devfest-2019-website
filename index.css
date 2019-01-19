@@ -365,7 +365,7 @@ footer .social a {
   text-decoration: none;
   color: white;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   width: 20%;
   transition: color 0.2s linear, background-color 0.2s linear;
 }
