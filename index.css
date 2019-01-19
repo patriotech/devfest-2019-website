@@ -212,7 +212,7 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-top: 1px solid rgb(214, 214, 214);
+  background-color: white;
 }
 
 .details-ccl-video .description {
@@ -293,6 +293,7 @@ header {
 }
 
 .faq-container {
+  width: 80%;
   max-width: 700px;
   padding: 20px;
   margin: auto;
