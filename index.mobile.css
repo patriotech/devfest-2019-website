@@ -1,0 +1,25 @@
+@media only screen and (max-width: 650px) {
+  header {
+    height: 70px;
+  }
+
+  .menu-items {
+    margin: 24px 10px 0px 0px;
+  }
+  
+  .menu-items li {
+    display: none;
+  }
+
+  .menu-items li[data-scroll=""] {
+    display: inline-block;
+  }
+
+  .logo {
+    height: 55px;
+  }
+
+  .overlay {
+    margin-top: 73px;
+  }
+}

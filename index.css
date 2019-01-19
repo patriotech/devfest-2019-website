@@ -113,12 +113,14 @@ header {
 }
 
 .feature .sign-up {
-  padding: 8px 15px;
+  padding: 8px 0px;
   margin: auto;
   display: block;
   background-color: #0db854;
   color: white;
   font-size: 25px;
+  width: 120px;
+  text-align: center;
 }
 
 .feature .sign-up:hover {
