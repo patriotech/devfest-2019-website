@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Avenir'
 }
 
 /* MENU/HEADER */
@@ -42,7 +43,6 @@ header {
   margin-right: 20px;
   font-size: 20px;
   color: white;
-  font-family: 'Avenir';
   border-bottom: 3px solid transparent;
   transition: border-bottom 0.2s linear;
 }
@@ -80,7 +80,6 @@ header {
   margin-left: 10px;
   font-size: 20px;
   color: white;
-  font-family: 'Avenir';
   transition: background-color .3s linear;
   outline: none;
   text-decoration: none;
@@ -137,14 +136,12 @@ header {
 
 .date-time {
   text-align: center;
-  font-family: 'Avenir';
   font-size: 32px;
   color: white;
   margin: 5px 0px 20px;
 }
 
 .details-header {
-  font-family: 'Avenir';
   font-size: 40px;
   text-align: center;
   margin: 15px;
@@ -179,7 +176,6 @@ header {
 }
 
 .details-card h3 {
-  font-family: 'Avenir';
   font-size: 30px;
   text-align: center;
   color: white;
@@ -193,7 +189,6 @@ header {
 }
 
 .details-card p {
-  font-family: 'Avenir';
   font-size: 16px;
   text-align: center;
   color: white;
@@ -202,4 +197,66 @@ header {
 
 .details-card:last-of-type p {
   font-size: 20px;
+}
+
+/* ABOUT SECTION */
+.about {
+  height: 100%;
+  width: 100%;
+  background: url('./img/cream-city-labs.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.about .overlay {
+  margin: 0;
+  padding: 20px 30px;
+  background-color: rgba(31, 31, 31, 0.74)
+}
+
+.about-header {
+  margin: 0;
+  font-size: 40px;
+  color: white;
+}
+
+.about .overlay .definitions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about .definition {
+  max-width: 300px;
+}
+
+.about .definition h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.about .definition:nth-of-type(1) h3 {
+  color: #ffd94f;
+}
+
+.about .definition:nth-of-type(2) h3 {
+  color: #6ed15c;
+}
+
+.about .definition:nth-of-type(3) h3 {
+  color: #1aaeef;
+}
+
+.about .definition:nth-of-type(4) h3 {
+  color: #f85050;
+}
+
+.about .definition h4 {
+  font-size: 20px;
+  color: rgb(194, 194, 194);
+  margin: 3px 0;
+}
+
+.about .definition p {
+  font-size: 18px;
+  color: white;
 }
