@@ -143,6 +143,10 @@ header {
 }
 
 /* DETAILS SECTION */
+.details {
+  background-color: #eaeaea;
+}
+
 .details-header {
   font-size: 40px;
   text-align: center;
@@ -157,7 +161,6 @@ header {
   width: calc(100% - 20px);
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #eaeaea;
   padding: 10px;
 }
 
@@ -202,6 +205,23 @@ header {
 
 .details-card:last-of-type p {
   font-size: 20px;
+}
+
+.details-ccl-video {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(214, 214, 214);
+}
+
+.details-ccl-video .description {
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+.details-ccl-video .description h2 {
+  margin-top: 0;
 }
 
 /* ABOUT SECTION */
