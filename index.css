@@ -102,6 +102,7 @@ header {
   height: 100%;
   width: 100%;
   background: url('./img/nm-building.jpg') no-repeat center center;
+  background: cover;
 }
 
 .feature-img {
